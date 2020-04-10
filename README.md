@@ -33,4 +33,4 @@ Neste desafio, você vai praticar os seus conhecimentos em:
 
 ## Layout:
 
-![](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-11/image.png)
+![](https://github.com/IgorBayerl/Site-estatico-IMDB/blob/master/img/screenshot.png)
