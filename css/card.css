@@ -1,0 +1,115 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+.card {
+    
+    width: 250px;
+	margin: 50px;
+	
+	
+}
+
+.card-header {
+	position: relative;
+	top:0px;
+	left:0px;
+}
+
+.card-header img{
+    border-radius: 8px;
+	width: 100%;
+	box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.62); 
+}
+
+.card-body {
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px 25px;
+	background-color: white;
+	box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.62); 
+
+}
+
+
+
+.card-content h1 {
+    font-size: 20px;
+    margin: 4;
+}
+.card-content h2 {
+    margin-top: 5;
+    font-size: 12px;
+    font-weight: 100;
+    color: grey;
+}
+
+.card-content p {
+    font-size: 12px;
+}
+
+.card-footer {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+	color: grey;
+	
+}
+
+.card-footer a{
+    color: grey;
+}
+
+.card-footer i{
+	color: grey;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.card-footer i:hover{
+	color: rgb(255, 0, 0);
+}
+/* ///////////////////////////////
+INFO
+/////////////////////////////// */
+.card-info {
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	left: 0;
+	opacity: 0;
+	padding: 80px 20px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	transition: all 0.2s ease-in-out;
+	visibility: hidden;
+	width: 100%;
+	z-index: 1;
+	border-radius: 8px;
+}
+
+.card:hover .card-info {
+	opacity: 1;
+	visibility: visible;
+}
+
+.card-info h3 {
+	color: #e4bb23;
+	font-size: 2em;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+.card-link {
+	color: #fff;
+	font-size: 5em;
+	transition: all 0.2s ease-in-out;
+}
+
+.card-link:hover {
+	color: #e4bb23;
+}
